@@ -1,3 +1,14 @@
+# Keytos Hack · Mini-challenge 02 · Humans-only CAPTCHA
+
+This repo holds two entries:
+
+| Entry | Where | What it is |
+|---|---|---|
+| **GHOSTCHA, the Haunted Disco CAPTCHA** | [`ghostcha/`](ghostcha/) · [demo video](ghostcha/ghostcha-demo.mp4) | Three rounds (a word that only exists in moving static, a live funk rhythm game, a bone clock) plus prompt-injection traps. Humans pass in about 20 seconds. |
+| **GHOST//FUNK** | [`dist/`](dist/) (documented below) | A haunted-vinyl motion-perception CAPTCHA: scratch the record and catch the ghost hiding in coordinated motion. |
+
+---
+
 # GHOST//FUNK — Find the soul in the static.
 
 A completely new build for Keytos Hack Mini-challenge 02. The previous MEATSPACE stages, theme layers, and legacy AI capture assets have been removed from the shipped app.
