@@ -1,6 +1,10 @@
-# MEATSPACE — A Little Too Human
+# MEATSPACE — District 404: Offline Souls. Online Chaos.
 
-A tiny nightclub for actual humans. Built for **Keytos Hack Mini-challenge 02: Humans-only CAPTCHA**.
+A cyberpunk club checkpoint for the chronically online and biologically human. Built for **Keytos Hack Mini-challenge 02: Humans-only CAPTCHA**.
+
+## District 404 update
+
+Neon city gate, reactive club reactor, three selectable player signals (CHAOS.KID, GHOST.EXE, SIDE.QUEST), humanity XP, Bouncer.ai DMs with contextual hints and roasts, and a holographic pass. Cosmetic interactions never grant admission or change the verifier. All player choices and chat state stay in memory in this tab.
 
 ## The pitch
 
@@ -39,7 +43,7 @@ The dev-only happy-dom harness tests the actual UI module with a synthetic rende
 - **Observed author AI trial:** the authoring AI used a screenshot-based browser loop, passed the warm-up and the then-current wobble, and missed the live high-five window. The tab exported its aggregate log; the corresponding screenshot is preserved in `dist/evidence/`.
 - **Important scope:** this was author-assisted and source-aware, not a blind independent test. Wobble was hardened afterward because the trial exposed a stationary-overlap loophole. The observed high-five result remains a single observation, not a general success rate.
 - **Local bot bench:** three deterministic rejection probes exercise the same check functions as the game: nonempty honeypot, stale reaction, and stationary input. A separately labeled synthetic positive control is admitted.
-- **Automated QA:** seven tests pass, including full synthetic UI admission and a live-cue timeout. Syntax checks pass.
+- **Automated QA:** eight tests pass, including full synthetic UI admission and a live-cue timeout. Syntax checks pass.
 - **Still needed:** a real first-time human completes the flow in roughly 30 seconds; an independent AI browser agent attempts the deployed page without source access. Neither result has been fabricated.
 
 Use the live **AI agent** entry for a self-labeled AI run. Other runs are self-declared human runs; labels are not identity proof. Download aggregate evidence from the judging panel. New Guest preserves previous runs in this tab, but reload clears them.
@@ -56,9 +60,9 @@ The app requests no account, camera, microphone, biometrics, personal questions,
 
 ## Submission-ready copy
 
-**Title:** MEATSPACE — A Little Too Human
+**Title:** MEATSPACE — District 404
 
-**Description:** A tiny nightclub for actual humans. Get past the velvet rope with three small moments: an everyday human reaction, a wobbly disco-ball spotlight, and a high five that must be returned before the moment passes. Includes responsive illustrated club characters, optional synthesized funk, keyboard/touch controls, relaxed timing, a zero-personal-data design, downloadable admission passes, and a judging panel with honest local bot probes and a recorded author-AI high-five miss. No fake AI-proof statistics. You had to be there.
+**Description:** Offline souls. Online chaos. Enter a neon cyberpunk club guarded by Bouncer.ai. Choose your signal, charge the city reactor, collect humanity XP, and DM the bouncer for a cheat code or a roast. Get past the velvet rope with three small moments: an everyday human reaction, a wobbly disco-ball spotlight, and a high five that must be returned before the moment passes. Includes responsive illustrated club characters, optional synthesized funk, keyboard/touch controls, relaxed timing, a zero-personal-data design, downloadable admission passes, and a judging panel with honest local bot probes and a recorded author-AI high-five miss. No fake AI-proof statistics. You had to be there.
 
 **Demo order:** explain the three checks → let a first-time person try → run an independent AI attempt → run the bot bench → show the author-AI capture and raw log → download the session evidence.
 
